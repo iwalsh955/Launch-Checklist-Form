@@ -41,7 +41,7 @@ window.addEventListener("load", function(){
       if(pilotName.value === "" || coPilotName.value === "" || fuelLevel.value === "" || cargoMass.value === "")
       {
          reset(launchChecks);
-         Alert("ALL FIELDS REQUIRED!");
+         alert("ALL FIELDS REQUIRED!");
       }
       else
       {
@@ -74,7 +74,7 @@ window.addEventListener("load", function(){
          else
          {
             reset(launchChecks);
-            Alert("ONE OR MORE FIELDS NOT ENTERED CORRECTLY!");
+            alert("ONE OR MORE FIELDS NOT ENTERED CORRECTLY!");
          }
       }
    });
